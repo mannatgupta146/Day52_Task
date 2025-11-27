@@ -1,70 +1,55 @@
 # Day 52 Task | Cohort 2.0
 
-This project is my **Day 50 Task**, where I built a fully interactive **Instagram-style Reels UI** using **HTML, SCSS, and JavaScript**.  
-The app displays a vertical feed of reels, complete with autoplay videos, profile info, follow button, like/comment/share actions, and scroll-snap functionality to switch reels smoothly.
+This project is my **Day 52 Task**, where I created a fully interactive **Torch Light Effect UI** using **HTML, SCSS, and JavaScript**.  
+The screen displays a fullscreen background video, and a dynamic **flashlight/torch effect** follows the mouse pointer using a radial-gradient overlay.
 
-This task helped me understand DOM creation using data arrays, scroll snapping, positioning UI elements on top of videos, and recreating real social-media interactions using web technologies.
+This task helped me understand CSS gradients, custom properties (`--x`, `--y`), layering video backgrounds, and creating real-time interactive visual effects with JavaScript and SCSS.
 
+## 📌 About the Day 52 Task  
+Day 52 focused on building a **realistic torch/spotlight effect** on top of a video background. I learned how to:
 
-## 🎥 Demo  
-Here is a quick demo of the project:
-
-![Demo GIF](./assets/demo.gif)
-
-
-## 📌 About the Day 50 Task  
-Day 50 focused on building a **short-video scrolling feed**, similar to Instagram Reels / YouTube Shorts. I learned how to:
-
-- Create UI dynamically using JavaScript template literals  
-- Use autoplay, loop, muted video attributes  
-- Overlay profile info, actions, and descriptions on videos  
-- Implement **scroll-snap** for reel-style navigation  
-- Use SCSS nesting to keep styles clean and structured  
-- Manage like/follow states with objects  
-- Build a responsive, centered mobile-style reel layout  
-
+- Use `radial-gradient()` to create a flashlight-like effect  
+- Update CSS variables dynamically using JavaScript  
+- Track mouse movement to reposition gradients  
+- Layer `<video>` elements behind content using `z-index`  
+- Use SCSS nesting for clean and readable code  
+- Create soft, cinematic lighting effects on moving backgrounds  
 
 ## ✨ Task Features
 
 | Feature | Description |
 |--------|-------------|
-| 🎬 **Autoplay Reels** | Each video plays automatically and loops. |
-| 👤 **Profile Overlay** | Username, DP, and follow button displayed on each reel. |
-| ❤️ **Interactive Buttons** | Like, comment, and share counters with icons. |
-| 🔄 **Dynamic Rendering** | All reels are generated from a JavaScript array. |
-| 📝 **Custom Descriptions** | Each reel has its unique caption. |
-| 🎚️ **Scroll-Snap Feed** | Smooth vertical snapping like Instagram reels. |
-| 🎨 **SCSS Styling** | Clean nested SCSS structure. |
-| 📱 **Mobile UI Layout** | Reels layout similar to real short-video apps. |
-
+| 🔦 **Dynamic Torch Effect** | A smooth spotlight follows the mouse cursor. |
+| 🎥 **Background Video** | Fullscreen autoplay video with perfect object-fit cover. |
+| 🎨 **Custom Gradient Lighting** | Multi-layer radial gradient for a realistic flashlight feel. |
+| 🖱️ **Mouse Tracking** | CSS variables update in real time with cursor movement. |
+| 📐 **SCSS Nesting** | Clean and structured styling using nested rules. |
+| ⚡ **Smooth Performance** | Lightweight effect using pure CSS + JS. |
 
 ## 🛠️ Technologies Used
 
 - **HTML** – Structure  
-- **SCSS** – Styling, layout, nesting  
-- **JavaScript (ES6)** – Dynamic rendering & logic  
-- **Remix Icons** – Action icons  
+- **SCSS** – Styling and gradient effects  
+- **JavaScript (ES6)** – Mouse tracking + dynamic variables  
+- **MP4 Video** – Background animation  
 - **VS Code** – Development environment  
-- **MP4 Files** – Reel videos  
-
 
 ## 📖 Learning Outcome  
 
 By completing this task, I learned:
 
-- How to dynamically build UI using JavaScript arrays  
-- How the HTML `<video>` element handles auto-playing content  
-- How scroll-snap works for vertical feed navigation  
-- How to position multiple layers on videos using absolute positioning  
-- How to structure large CSS files using SCSS nesting  
-- How interactive UI states (likes, follows) are handled  
-- How modern reel/short-video feeds are built in real applications  
+- How CSS radial gradients work in layered UIs  
+- How to dynamically update CSS variables using JS  
+- How to create torch/spotlight visual effects  
+- How `<video>` elements behave with `object-fit: cover`  
+- How SCSS nesting improves readability  
+- How to combine UI effects with fluid mouse interactions  
 
-This task strengthened my understanding of scroll interactions, dynamic UI creation, video handling, and SCSS structuring.
+This task strengthened my understanding of dynamic visual effects, CSS variables, layering, and real-time UI interactions.
 
 ## 🌟 Acknowledgement  
 
-This **Day 50 task** helped me understand how popular apps like Instagram, TikTok, and YouTube Shorts build their reel interfaces.  
-Thank you to **Cohort 2.0** for providing fun, challenging, and practical projects that help me grow as a developer.
+This **Day 52 task** helped me explore how modern web animations and light effects are built.  
+Thank you to **Cohort 2.0** for providing creative and challenging projects that help me grow as a developer.
 
 ---
